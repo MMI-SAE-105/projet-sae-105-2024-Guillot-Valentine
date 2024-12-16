@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : GUILLOT
+- PRÉNOM : Valentine
+- GROUPE : B1
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/Uj2tf9hpGL5ioZVH5jU9sP/GUILLOT_Valentine_ProjetS1?node-id=13-14&t=GpnC9G0KG8J6lIDq-1
