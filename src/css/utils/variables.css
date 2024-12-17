@@ -1,0 +1,22 @@
+:root {
+    /* color */
+    --blanc: #f1f1f1;
+    --bleu: #4c8bc4;
+    --noir: #0d0d0d;
+    --violet: #431c51;
+    --violet-claire: #f9abff;
+
+    /* font size */
+    --fs-xxs: 0.75rem;
+    --fs-xs: 0.8125rem;
+    --fs-s: 0.875rem;
+    --fs-m: 0.9375rem;
+    --fs-l: 1.125rem;
+    --fs-xl: 1.5rem;
+    --fs-xxl: 1.875rem;
+
+    /* font family */
+    --Montserrat: 'Montserrat', sans-serif;
+    --Exo: 'Exo', sans-serif;
+    --BebasNeue: 'Bebas Neue', cursive;
+}
