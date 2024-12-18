@@ -13,17 +13,23 @@
 </head>
 
 <body>
-    <header>
-        <a href="/" class="header__logo">
+    <header class="header">
+        <a href="/fr/index.html" class="header__logo">
             <img src="/assets/icone/logo.svg" alt="Logo de Vestiges VR">
         </a>
 
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
+        <div class="header__right">
+            <a href="/en/article_object"> <span class="header__blanc">FR |</span><span class="header__opacite">
+                    EN</span></a>
 
-        <nav>
-            <ul>
+
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="/fr/article_objet.html">Vestige d’une technologie révolutionaire</a>
                 </li>
@@ -58,8 +64,8 @@
     <main>
         <section class="hero">
             <div class="hero__header container">
-                <h1 class="hero__title">Le Casque de Réalité Virtuelle : Vestige d’une Technologie Révolutionnaire</h1>
-                <div class="hero__img">
+                <h2 class="hero__title2">Le Casque de Réalité Virtuelle : Vestige d’une Technologie Révolutionnaire</h2>
+                <div class="hero__img2">
                     <img src="/assets/img/article_objet/header.webp" alt="Photo d'un homme utilisant un casque VR" />
                 </div>
             </div>
@@ -182,25 +188,32 @@
     </main>
         
     <footer class="footer">
-        <div>
+        <div class="footer__top">
             <img class="footer__logo" src="/assets/icone/logo.svg" alt="logo de Vestiges VR">
-            <p class="footer__title">Vestiges VR</p>
+            <p class="footer__title footer__titre">Vestiges VR</p>
         </div>
-        
-        <div>
+    
+        <div class="footer__info">
             <p class="footer__title">Valentine GUILLOT - Groupe b1</p>
             <a class="footer__mail" href="mailto:valentine.guillot.48@gmail.com">
                 <img class="footer__icon-mail" src="/assets/icone/e-mail.svg" alt="Icone e-mail" />
                 valentine.guillot.48@gmail.com
             </a>
         </div>
-        
-        <div>
-            <p class="footer__title footer__center">mention légale</p>
+    
+        <div class="footer__info">
+            <p class="footer__title">Réseaux sociaux</p>
+            <img class="footer__icon" src="/assets/icone/tiktok.svg" alt="Icone tik tok" />
+            <img class="footer__icon" src="/assets/icone/instagram.svg" alt="Icone instagram" />
+            </a>
+        </div>
+    
+        <div class="footer__mention">
+            <p class="footer__title">mention légale</p>
             <p class="footer__small">© Projet réalisé - 2024 dans le cadre d’un exercice pédagogique au département <a
                     class="footer__link" href="https://blogdummi.fr/">MMi de Montbéliard</a></p>
         </div>
     </footer>
-</body>
-        
-</html>
+    </body>
+    
+    </html>

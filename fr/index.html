@@ -13,17 +13,22 @@
 </head>
 
 <body>
-    <header>
-        <a href="/" class="header__logo">
+    <header class="header">
+        <a href="/fr/index.html" class="header__logo">
             <img src="/assets/icone/logo.svg" alt="Logo de Vestiges VR">
         </a>
 
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
+        <div class="header__right">
+            <a href="/en/index.html"> <span class="header__blanc">FR |</span><span class="header__opacite"> EN</span></a>
+        
 
-        <nav>
-            <ul>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+        </div>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="/fr/article_objet.html">Vestige d’une technologie révolutionaire</a>
                 </li>

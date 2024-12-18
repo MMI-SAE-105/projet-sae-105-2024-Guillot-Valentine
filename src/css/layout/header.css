@@ -1,0 +1,35 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 33px;
+    padding-top: 9px;
+    z-index: 10;
+}
+
+.header__logo{
+    z-index: 10;
+}
+
+.header__right{
+    display: flex;
+    font-family: var(--BebasNeue);
+    font-size: var(--fs-l);
+}
+
+.header__right a{
+    padding-right: 30px;
+}
+
+.header__blanc{
+    color: var(--blanc);
+}
+
+.header__opacite{
+    color: var(--blanc);
+    opacity: 0.5;
+}
