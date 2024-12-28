@@ -12,3 +12,18 @@ if (toggle && nav) {
     page.classList.toggle("noscroll", isClosed);
   });
 }
+
+const carousel = document.querySelector(".carousel__container");
+const prevButton = document.querySelector(".carousel__btn--prev");
+const nextButton = document.querySelector(".carousel__btn--next");
+
+if (carousel) {
+
+  prevButton.addEventListener("click", (evt) => {
+    carousel.scrollBy({ left: -190, behavior: "smooth" });
+  });
+
+  nextButton.addEventListener("click", (evt) => {
+    carousel.scrollBy({ left: +190, behavior: "smooth" });
+  });
+}

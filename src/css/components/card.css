@@ -3,6 +3,34 @@
     padding-bottom: 25px;
 }
 
+.card > div {
+    
+    position: relative;
+    left: 57px;
+    width: 280px;
+    z-index: -1;
+}
+
+.card > div::before,
+.card>div::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    
+    display: block;
+}
+.card>div::before 
+{
+    background: var(--bleu);
+    z-index: 2;
+    mix-blend-mode: soft-light;
+}
+.card>div::after {
+    background: var(--violet);
+    z-index: 3;
+    mix-blend-mode: soft-light;
+}
+
 .card__intro{
     padding-left: 20px;
     padding-right: 25px;
@@ -18,18 +46,15 @@
     margin-left: 164.5px;
     margin-right: 184.5px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     display: block;
 }
 
 .card__imgmini {
     position: relative;
-    width: 282px;
-    height: 80px;
-    padding-left: 55px;
-    padding-right: 55px;
-    z-index: -2;
+    display: block;
 }
+
 
 .card__link{
     display: flex;
@@ -38,7 +63,7 @@
     text-align: center;
     font-family: var(--BebasNeue);
     padding-left:165px;
-    padding-right: 60px;
+    padding-right: 55px;
     padding-bottom: 20px;
 }
 
