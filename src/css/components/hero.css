@@ -63,3 +63,24 @@
     mix-blend-mode: normal;
     z-index: 2;
 }
+
+.hero__intro{
+    font-size: var(--fs-l);
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.hero__intro::after{
+    content: "";
+    background-color: var(--bleu);
+    width: 30px;
+    height: 2px;
+    border-radius: 50px;
+    margin-left: 164.5px;
+    margin-right: 184.5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: block;
+}
