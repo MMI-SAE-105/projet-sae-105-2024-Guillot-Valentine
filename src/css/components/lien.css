@@ -1,0 +1,43 @@
+.lien{}
+
+.lien__intro{
+    font-family: var(--BebasNeue);
+    font-size: var(--fs-m);
+    text-align: center;
+    margin: 0 25px;
+}
+
+.lien__video{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.lien__bouton{
+    color: var(--noir);
+    font-family: var(--BebasNeue);
+    font-size: var(--fs-m);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.lien__bouton::after{
+    content: "";
+    position: absolute;
+    background-color: var(--violet-claire);
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.lien__between::before{
+    content: "";
+    margin-top: 50px;
+    display: block;
+}
