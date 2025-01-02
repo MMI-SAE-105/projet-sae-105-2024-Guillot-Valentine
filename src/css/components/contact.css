@@ -1,0 +1,81 @@
+.contact {
+    color: var(--bleu);
+    font-size: var(--fs-xs);
+    font-family: var(--Montserrat);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.contact__info{
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.contact__title{
+    color: var(--violet-claire);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact p{
+    margin : 0;
+}
+
+.contact__group {
+    display: flex;
+    margin-left: 34px;
+    margin-bottom: 50px;
+}
+
+.contact__group::after {
+    content: "";
+    background-color: var(--blanc);
+    width: 325px;
+    height: 1px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    display: block;
+    position: absolute;
+}
+
+.contact__group-rectangle {
+    display: flex;
+    margin-left: 34px;
+    margin-bottom: 150px;
+}
+
+.contact__group-rectangle::after {
+    content: "";
+    width: 325px;
+    height: 130px;
+    border: 1px solid var(--blanc);
+    margin-top: 30px;
+    margin-bottom: 14px;
+    display: block;
+    position: absolute;
+}
+
+.contact__item {
+    color: var(--violet-claire);
+    padding-right: 2px;
+}
+
+.contact__text {
+    padding-left: 225px;
+    padding-bottom: 35px;
+}
+
+.contact__bouton {
+    font-family: var(--BebasNeue);
+    font-size: var(--fs-m);
+    color: var(--blanc);
+    font-weight: 400;
+    font-size: var(--fs-xs);
+    background-color: var(--bleu);
+    padding: 8px 25px;
+    border-radius: 5px;
+    margin-left: 270px;
+    margin-right: 35px;
+}
