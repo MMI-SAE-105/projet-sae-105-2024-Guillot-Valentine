@@ -3,12 +3,16 @@
     font-size: var(--fs-xs);
     font-family: var(--Montserrat);
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
 }
 
 .contact__info{
     padding-left: 20px;
     padding-right: 25px;
+}
+
+.contact__info p{
+    margin: 0;
 }
 
 .contact__title{
