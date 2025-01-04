@@ -71,6 +71,11 @@
     padding-bottom: 35px;
 }
 
+.contact__text-en{
+    padding-left: 255px;
+    padding-bottom: 35px;
+}
+
 .contact__bouton {
     font-family: var(--BebasNeue);
     font-size: var(--fs-m);
