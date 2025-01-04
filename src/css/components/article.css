@@ -47,8 +47,9 @@
     color: var(--violet-claire);
     font-size: var(--fs-xxs);
     font-family: var(--Montserrat);
-    padding-left: 57px;
-    padding-right: 57px;
+    text-align: center;
+    padding-left: 95px;
+    padding-right: 95px;
     padding-top: 5px;
     padding-bottom: 40px;
     margin: 0;
