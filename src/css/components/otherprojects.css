@@ -1,0 +1,35 @@
+.otherprojects{}
+
+.otherprojects__intro{
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.otherprojects__item{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.otherprojects__item p{
+    margin: 0;
+}
+
+.otherprojects__item a{
+    color: var(--violet-claire);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.otherprojects__item::before{
+    content: "";
+    background-color: var(--violet-claire);
+    width: 15px;
+    height: 2px;
+    border-radius: 50px;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+}
