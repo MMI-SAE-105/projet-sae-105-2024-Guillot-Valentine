@@ -2,10 +2,15 @@
     padding-left: 20px;
     padding-right: 25px;
     padding-top: 30px;
-    padding-bottom: 260px;
+    padding-bottom: 100px;
 }
 
 .glossaire p{
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.glossaire__bold{
+    font-weight: 700;
+    color: var(--violet-claire);
 }
